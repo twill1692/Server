@@ -7,20 +7,20 @@
 	<packaging>jar</packaging>
 	<name>Server</name>
 	<description>My app Server</description>
-	
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.2.0.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>13</java.version>
 	</properties>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>org.glassfish.jaxb</groupId>
@@ -42,30 +42,19 @@
 			<artifactId>javassist</artifactId>
 			<version>3.12.1.GA</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
-		<dependency>
-			<groupId>javax.xml.bind</groupId>
-			<artifactId>jaxb-api</artifactId>
-			<version>2.3.0-b170201.1204</version>
-		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/javax.activation/activation -->
 		<dependency>
 			<groupId>javax.activation</groupId>
 			<artifactId>activation</artifactId>
 			<version>1.1</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime -->
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
 			<version>2.4.0-b180830.0359</version>
-		</dependency>
-		<dependency>
-			<groupId>org.glassfish.jaxb</groupId>
-			<artifactId>jaxb-runtime</artifactId>
-			<version>2.4.0-b180830.0438</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -91,10 +80,11 @@
 			<artifactId>spring-restdocs-mockmvc</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- Driver for mysql db -->
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.19</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -105,7 +95,7 @@
 			<artifactId>persistence-api</artifactId>
 			<version>1.0</version>
 		</dependency>
-		
+
 		<!-- Unit Testing -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -118,9 +108,9 @@
 			<artifactId>spring-core</artifactId>
 			<version>5.2.0.RELEASE</version>
 		</dependency>
-		
+
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -138,5 +128,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
 </project>
