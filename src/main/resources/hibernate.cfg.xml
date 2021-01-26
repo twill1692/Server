@@ -17,7 +17,7 @@
       </property>
       
       <property name="hibernate.connection.username">
-         twill
+         twill1692
       </property>
       
       <property name="hibernate.connection.password">
