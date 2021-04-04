@@ -11,9 +11,8 @@ public interface PlayerDAO {
 
     public Player getPlayer(int playerID);
 
-    @RequestMapping("/playerCreate")
     public String createPlayer(Player player);
-    
+
     public void updatePlayer(Player player);
 
     public void deleteplayert(Player player);
