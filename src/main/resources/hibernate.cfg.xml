@@ -16,9 +16,7 @@
          jdbc:mysql://localhost/mydb?useSSL=false&amp;serverTimezone=UTC
       </property>
       
-      <property name="hibernate.connection.username">
-         twill1692
-      </property>
+      <property name="hibernate.connection.username">troy</property>
       
       <property name="hibernate.connection.password">
          6147Blake
