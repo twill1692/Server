@@ -1,6 +1,6 @@
 package com.app.player;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "player")
